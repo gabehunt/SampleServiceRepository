@@ -13,11 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GabeSample.Domain", "src\Ga
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GabeSample.ApplicationTests", "tests\GabeSample.ApplicationTests\GabeSample.ApplicationTests.csproj", "{68F13A7B-5BC1-4244-8D15-025D65A52615}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{4D1D87F6-9ED1-4DEB-BA05-9D7AD5724168}"
-	ProjectSection(SolutionItems) = preProject
-		shared\GabeSampleKey.pfx = shared\GabeSampleKey.pfx
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C211BA5-B0DE-4C4A-B2CF-6C8A67A54C67}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
