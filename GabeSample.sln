@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4000F8D-AB77-4169-A7F9-D438DD4AEEA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A0360DFA-22BD-4A1A-BA0E-E6A82B2117A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GabeSample.Application", "src\GabeSample.Application\GabeSample.Application.csproj", "{E1751BD7-8071-4102-A251-E54EC9D011AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GabeSample.Domain", "src\GabeSample.Domain\GabeSample.Domain.csproj", "{D520956A-694B-459C-913E-969DCBB0FCC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GabeSample.ApplicationTests", "tests\GabeSample.ApplicationTests\GabeSample.ApplicationTests.csproj", "{68F13A7B-5BC1-4244-8D15-025D65A52615}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{4D1D87F6-9ED1-4DEB-BA05-9D7AD5724168}"
+	ProjectSection(SolutionItems) = preProject
+		shared\GabeSampleKey.pfx = shared\GabeSampleKey.pfx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C211BA5-B0DE-4C4A-B2CF-6C8A67A54C67}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1751BD7-8071-4102-A251-E54EC9D011AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1751BD7-8071-4102-A251-E54EC9D011AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1751BD7-8071-4102-A251-E54EC9D011AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1751BD7-8071-4102-A251-E54EC9D011AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D520956A-694B-459C-913E-969DCBB0FCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D520956A-694B-459C-913E-969DCBB0FCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D520956A-694B-459C-913E-969DCBB0FCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D520956A-694B-459C-913E-969DCBB0FCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F13A7B-5BC1-4244-8D15-025D65A52615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F13A7B-5BC1-4244-8D15-025D65A52615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F13A7B-5BC1-4244-8D15-025D65A52615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F13A7B-5BC1-4244-8D15-025D65A52615}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1751BD7-8071-4102-A251-E54EC9D011AD} = {A4000F8D-AB77-4169-A7F9-D438DD4AEEA1}
+		{D520956A-694B-459C-913E-969DCBB0FCC8} = {A4000F8D-AB77-4169-A7F9-D438DD4AEEA1}
+		{68F13A7B-5BC1-4244-8D15-025D65A52615} = {A0360DFA-22BD-4A1A-BA0E-E6A82B2117A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A42EE0C-AACB-4376-8413-5F1BF366567D}
+	EndGlobalSection
+EndGlobal
