@@ -2,6 +2,9 @@
 
 TL;DR: This project is intended to showcase my general coding style.  It is intentionally simplified for brevity.  
 
+> :warning: **Requires VS 2019, C# 9.0**
+
+
 ###### Highlights
 - Clean Architecture
 - Service/Repository Pattern
